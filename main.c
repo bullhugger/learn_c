@@ -1,4 +1,4 @@
 int main() {
-  get_file_name();
+  hello_world();
   return 0; 
 }

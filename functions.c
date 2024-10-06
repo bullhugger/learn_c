@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <string.h>
+#include <time.h>
 #include "functions.h"
 
 void hello_world() {
-  printf("%s", get_message());
+  time_t rawtime;
+  time(&rawtime);
+  printf("Welcome to Jijimon's system, %s", ctime(&rawtime));
 }
 
 void get_file_name() {

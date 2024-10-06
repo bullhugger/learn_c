@@ -1,4 +1,4 @@
 Final application size:
-16328 bytes
+16384 bytes
 Compilation time recorded in compile_time.txt
 Compilation Time: 0:00.01
